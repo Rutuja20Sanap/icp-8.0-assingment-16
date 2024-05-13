@@ -1,0 +1,118 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap');
+body{
+    margin:0;
+    padding:0;
+    background-image: url('cafe-image.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+
+}
+.logo-img{
+    height:50px;
+    width:50px;
+    position:sticky;
+   top:10px;
+    left:30px;
+}
+.navbar{
+    height:70px;
+    width:3000px;
+    background-color: #ac7339;
+    color: #fff;
+    text-align: center;
+    display:flex;
+  position:fixed;
+  bottom:640px;
+ 
+}
+.navbar li {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+   list-style-type: none;
+    display: inline-block;
+padding-left:30px;
+  padding-right:30px;
+}
+.navbar li a{
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    font-family: kalam;
+ 
+  
+   
+}
+.navbar li a:hover{
+    color:rgb(76, 76, 216);
+}
+h2{
+   position:absolute;
+   top:280px;
+   left:550px;
+    text-align: center;
+    color:#86592d;
+    font-family: satisfy;
+    font-size: 60px;
+ }
+#text
+{
+    margin-left: 150px;
+    margin-top:430px;
+}
+h3
+{
+    text-align: center;
+    color:#86592d;
+    font-family: satisfy;
+    font-size: 40px;
+}
+.nav-2{
+    color:#333;
+    font-size: 25px;
+    padding:20px 20px 20px 20px;
+    font-family:kalam;
+    
+}
+.nav-3{
+    text-align: center;
+    font-size: 25px;
+    color:#333;
+    font-family:kalam;
+    margin:0;
+    position:absolute;
+    left:600px;
+}
+.nav-4{
+    margin:0;
+    position:absolute;
+    top:1100px;
+    left:600px;
+    text-align: center;
+    font-size: 25px;
+    color:#333;
+    font-family:kalam;
+    text-align: center;
+}
+.btn{
+    height:50px;
+    width:140px;
+    color:White;
+    background-color: #ac7339;
+    font-family: kalam;
+   font-size:30px;
+   position:relative;
+   left:650px;
+   top:600px;
+    border-radius: 25px;
+    border: none;
+    font-weight: bold;
+}
+.btn:hover{
+    width:170px;
+}
